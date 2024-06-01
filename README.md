@@ -3,9 +3,9 @@
 ## Requirement
 
 ### Python
-- [x] Python Service should have a Postgres database.
-- [x] **(Bonus)** No GUI but Service can be utilized using cmd, API etc.
-- [x] **(Bonus)** Using Pydantic, having linters, PEP-8 standard checkers.
+- [x] ~~Python Service should have a Postgres database.~~
+- [x] ~~**(Bonus)** No GUI but Service can be utilized using cmd, API etc.~~
+- [x] ~~**(Bonus)** Using Pydantic, having linters, PEP-8 standard checkers.~~
 
 ### Node.js
 - [ ] Node JS Service should only communicate with the Python Service and Client App.
