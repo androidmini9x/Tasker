@@ -13,11 +13,11 @@
 
 
 ### React
-- [ ] Button in the middle of the screen
-- [ ] On pressing this button, it should open up a modal with a list tasks
-- [ ] Client app should only communicate with the NodeJS Service
-- [ ] Updating/Adding a new element should be done without refreshing webpage.
-- [ ] **(Bonus)** You can add an input field in the client side modal, for adding more list elements.
+- [x] Button in the middle of the screen
+- [x] On pressing this button, it should open up a modal with a list tasks
+- [x] Client app should only communicate with the NodeJS Service
+- [x] Updating/Adding a new element should be done without refreshing webpage.
+- [x] **(Bonus)** You can add an input field in the client side modal, for adding more list elements.
 
 
 ### DevOps
