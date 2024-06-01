@@ -8,8 +8,8 @@
 - [x] ~~**(Bonus)** Using Pydantic, having linters, PEP-8 standard checkers.~~
 
 ### Node.js
-- [ ] Node JS Service should only communicate with the Python Service and Client App.
-- [ ] **(Bonus)** Using typescript, having linters
+- [x] ~~Node JS Service should only communicate with the Python Service and Client App.~~
+- [x] ~~**(Bonus)** Using typescript, having linters~~
 
 
 ### React
