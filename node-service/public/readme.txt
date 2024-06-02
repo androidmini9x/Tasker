@@ -1,0 +1,1 @@
+Static Assests will be here.

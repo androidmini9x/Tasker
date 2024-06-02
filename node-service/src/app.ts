@@ -1,5 +1,5 @@
-import express, {Request, Response} from 'express'
-import dotenv from 'dotenv'
+import express, {Request, Response} from 'express';
+import dotenv from 'dotenv';
 import taskRoute from './routes/task';
 import path from 'path';
 
@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 const cors = require('cors');
 const PORT = process.env.BACKEND_PORT || 3000;
-const buildPath = path.join(__dirname, '../../fn_out');
+const buildPath = path.join(__dirname, '../public');
 
 app.use(cors({
     origin: '*'
@@ -18,7 +18,7 @@ app.use(express.json());
 app.use('/api', taskRoute);
 
 // gets the static files from the build folder
-app.get('*', (req, res) => {
+app.get('*', (req: Request, res: Response) => {
     res.sendFile(path.join(buildPath, 'index.html'))
 });
 
