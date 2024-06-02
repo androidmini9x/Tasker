@@ -7,7 +7,7 @@ services:
       test: ["CMD-SHELL", "pg_isready"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 6
   
   python-service:
     build: python-service
